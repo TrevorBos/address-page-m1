@@ -1,0 +1,15 @@
+/* --- Working with style sheets ---*/
+
+/* sets the outer area of the page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* properties to maintain consitency */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
