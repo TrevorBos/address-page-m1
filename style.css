@@ -7,9 +7,34 @@
     box-sizing: border-box;
 }
 
-/* properties to maintain consitency */
+/* Properties to maintain consitency */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
+}
+
+/* Spacing for the main areas of the page */
+header, section, footer {
+    padding: 10px 10px 10px 60px;
+}
+
+/* Chaning the background color for the header and footer text */
+header, footer {
+    background-color: #00bfff;
+}
+
+/* Changing the color of the text of the H2 element within SECTION */
+section h2 {
+    color: rgb(0,191,255)
+}
+
+/* Adds spacing to the bottom of each article to make them standout */
+article {
+    margin: 0px 0px 20px 0px;
+}
+
+/* Multiplies the font size by the number inputted (1.5) and allows for some spacing */
+footer {
+    line-height: 1.5;
 }
 
